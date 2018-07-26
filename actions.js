@@ -10,11 +10,12 @@ function addComment(text) {
        type: ADD_COMMENT,
        text,
        id: uuid.v4()
-   }
+    }
 }
 
 //   remove comment -----------------------------------------------------------------
- const REMOVE_COMMENT = 'REMOVE_COMMENT';
+
+const REMOVE_COMMENT = 'REMOVE_COMMENT';
 
 function removeComment(id) {
     return {
